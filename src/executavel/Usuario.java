@@ -1,11 +1,11 @@
 package executavel;
 
-public class Gafanhoto extends Pessoa{
+public class Usuario extends Pessoa{
 	
 	private String login;
 	private int totAssistido;
 	
-	public Gafanhoto(String nome, int idade, String sexo, String login) {
+	public Usuario(String nome, int idade, String sexo, String login) {
 		super (nome, idade, sexo);
 		this.login = login;
 		this.totAssistido = 0;

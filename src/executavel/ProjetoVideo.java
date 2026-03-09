@@ -13,9 +13,9 @@ public class ProjetoVideo {
 
 //		System.out.println(v[0].toString());
 		
-		Gafanhoto g[] = new Gafanhoto[2];
-		g[0] = new Gafanhoto("Gabriel", 25, "m", "gabi65");
-		g[1] = new Gafanhoto("Isabel", 18, "f", "isa94");
+		Usuario g[] = new Usuario[2];
+		g[0] = new Usuario("Gabriel", 25, "m", "gabi65");
+		g[1] = new Usuario("Isabel", 18, "f", "isa94");
 		
 		Visualizacao visu[] = new Visualizacao[5];
 		

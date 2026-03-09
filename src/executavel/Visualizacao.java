@@ -1,10 +1,10 @@
 package executavel;
 
 public class Visualizacao {
-	private Gafanhoto espectador;
+	private Usuario espectador;
 	private Video filme;
 	
-	public Visualizacao(Gafanhoto espectador, Video filme) {
+	public Visualizacao(Usuario espectador, Video filme) {
 		this.espectador = espectador;
 		this.filme = filme;
 		this.espectador.setTotAssistido(this.espectador.getTotAssistido() + 1);
@@ -38,11 +38,11 @@ public class Visualizacao {
 		return "Visualizacao [espectador=" + espectador + ", filme=" + filme + "]";
 	}
 
-	public Gafanhoto getEspectador() {
+	public Usuario getEspectador() {
 		return espectador;
 	}
 
-	public void setEspectador(Gafanhoto espectador) {
+	public void setEspectador(Usuario espectador) {
 		this.espectador = espectador;
 	}
 
