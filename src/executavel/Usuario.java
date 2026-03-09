@@ -17,7 +17,7 @@ public class Usuario extends Pessoa{
 
 	@Override
 	public String toString() {
-		return "Gafanhoto [login=" + login + ", totAssistido=" + totAssistido + ", nome=" + nome + ", idade=" + idade
+		return "Usuario: [login=" + login + ", totAssistido=" + totAssistido + ", nome=" + nome + ", idade=" + idade
 				+ ", sexo=" + sexo + ", experiencia=" + experiencia + "]";
 	}
 
